@@ -1,0 +1,28 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#getDataBtn{
+    padding: 20px;
+    border-radius: 20px;
+    color:white;
+    font-weight: bolder;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, blue,magenta);
+}
+.container{
+    width:90vw;
+    min-height: 90vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
